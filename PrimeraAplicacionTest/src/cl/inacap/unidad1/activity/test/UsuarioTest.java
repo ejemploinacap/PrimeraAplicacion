@@ -8,7 +8,7 @@ public class UsuarioTest extends TestCase {
 	public void testValidarLogin() {
 		Usuario testClass = new Usuario();
 		
-		assertEquals (false, testClass.validarLogin("test1", "test"));
+		assertEquals (false, testClass.validarLogin("test", "test"));
 	}
 
 }
